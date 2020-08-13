@@ -1,0 +1,8 @@
+name: "my-website"
+navbar:
+  title: "Tom Ellis"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "Research"
+      href: research.html
