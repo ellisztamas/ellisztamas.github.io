@@ -1,1 +1,26 @@
 theme: jekyll-theme-midnight
+
+# Site wide configuration
+
+title: Tom Ellis
+locale: en_UK
+# logo: # filename of a logo image that has been placed into your images directory
+
+# Enter the following platform usernames if you would like for them to appear on your site.
+owner:
+  name: Tom Ellis
+  # avatar: bio-photo.jpg
+  bio: "Evolutionary biologist at GMI in Vienna"
+  email: thomas.ellis@gmi.oeaw.ac.at
+  # Do not include the @ symbol in your Twitter username
+  twitter: ellisztamas
+  # linkedin: #username
+  github: ellisztamas
+  # orcid: # ID Number (ex. 0000-0000-0000-0000)
+  # researchgate: #username
+  # mendeley: #username
+  # google:
+  #   plus: #username
+  #   analytics:
+  #   verify:
+  #   scholar: #id
