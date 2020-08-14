@@ -1,7 +1,3 @@
----
-layout: page
-title: "Tom Ellis"
----
 ## Tom Ellis
 
 I am an evolutionary biologist at the Gregor Mendel Insitute in the group of Magnus Nordborg.
