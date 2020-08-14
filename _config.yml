@@ -1,4 +1,4 @@
-remote-theme: ellisztamas/hyde
+remote-theme: benbalter/retlab
 # baseurl: http://ellisztamas.github.io/hyde/
 #theme: jekyll-theme-minimal
 
@@ -7,7 +7,7 @@ remote-theme: ellisztamas/hyde
 # Site wide configuration
 
 title: Tom Ellis
-locale: en_UK
+# locale: en_UK
 # logo: # filename of a logo image that has been placed into your images directory
 
 # Enter the following platform usernames if you would like for them to appear on your site.
