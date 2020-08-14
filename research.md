@@ -3,7 +3,7 @@ layout: page
 title: "Research"
 permalink: /research/
 ---
-s
+
 ### Flower colour in a snapdragon hybrid zone
 
 Hybrid zones are fantastic tools for investigating how selection acts on natural populations.
