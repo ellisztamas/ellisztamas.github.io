@@ -1,6 +1,7 @@
-baseurl: http://ellisztamas.github.io/hyde/
+remote-theme: ellisztamas/hyde
+# baseurl: http://ellisztamas.github.io/hyde/
 #theme: jekyll-theme-minimal
-# remote-theme: poole/hyde
+
 
 
 # Site wide configuration
