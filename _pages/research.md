@@ -1,6 +1,6 @@
 ---
 title: "Research"
-permalink: _pages/research/
+permalink: /research/
 toc: true
 ---
 
