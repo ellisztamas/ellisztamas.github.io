@@ -1,7 +1,8 @@
 ---
 toc: true
 title: "Software"
-permalink: /software/
+permalink: _pages/software/
+toc: true
 ---
 
 ### Inference of paternity and sibling relationships
