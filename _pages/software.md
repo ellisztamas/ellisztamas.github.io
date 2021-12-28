@@ -1,7 +1,6 @@
 ---
-toc: true
 title: "Software"
-permalink: _pages/software/
+permalink: /software/
 toc: true
 ---
 
