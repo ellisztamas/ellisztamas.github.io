@@ -5,7 +5,7 @@ permalink: /about/
 
 I have worked on a range of topics in evolutionary genetics, but a common theme is investigating the link between genes and their environments in the relevant biological context.
 
-I would highlight four particular skills
+I would highlight four key areas of expertise I have gained:
 
 1. Extensive experience in **data analysis** in R and Python. I place particular emphasis on ensuring my analyses are **reproducible** by myself and others.
 <!-- See, for example, code repositories accompanying publications on [fitness components](https://github.com/ellisztamas/fecundity_components) or [virus resistance](https://github.com/ellisztamas/tumv_ms) *Arabidopsis thaliana*. -->
