@@ -37,6 +37,8 @@ I would highlight four key areas of expertise I have gained:
 
 ## Clear communication
 
+I take great satisfaction in presenting complex ideas clearly to non-experts:
+
 - Winner of the Vienna "Science Slam" 2013, presenting my research to the public.
-- Winner of the IST Austria "Best talk" for the internal seminar series 2014.
+- Winner of the IST Austria "Best talk" for the internal seminar series 2014 for mixed audience of scientists.
 - My PhD thesis was nominated for "best thesis" in 2016 
