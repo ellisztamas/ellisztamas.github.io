@@ -17,7 +17,6 @@ I would highlight four key areas of expertise I have gained:
 - A strong focus on **robust, reproducible code**. See for example:
     - Code repositories accompanying publications on [fitness components](https://github.com/ellisztamas/fecundity_components) or [virus resistance](https://github.com/ellisztamas/tumv_ms) *Arabidopsis thaliana*.
     - The R and Python [packages](/software/) I have written to support my research.
-- 
 
 ## Large-scale field experiments
 
@@ -27,8 +26,6 @@ I would highlight four key areas of expertise I have gained:
     - During my post-doctoral work on local adaptation in *Arabidopsis thaliana* I was responsible for organising six reciprocal transpant experiments involving hundreds of thousands of plants in two countries.
 - Key to this is an emphasis on **careful experimental design**:
     - In my current position investigating methylation variation we suspected that there was cryptic confounding affecting our bisulphite sequencing data. Thanks to careful blocking and randomisation I was able to isolate the problem and refine subsequent data collection.
-    - 
-
 
 ## Leadership and mentoring
 
