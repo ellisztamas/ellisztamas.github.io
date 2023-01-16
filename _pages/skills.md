@@ -25,6 +25,17 @@ I would highlight four key areas of expertise I have gained:
 - Key to this is an emphasis on **careful experimental design**:
     - In my current position investigating methylation variation we suspected that there was cryptic confounding affecting our bisulphite sequencing data. Thanks to careful blocking and randomisation I was able to isolate the problem and refine subsequent data collection.
 
+
 ## Leadership and mentoring
 
+- I have organised and led teams of volunteers in data collection for multiple large field experiments to strict deadlines.
+- I have initiated and led the organisation of three IST Austria PhD Symposia, as well as networking meetings for the Vienna evolutionary biology community.
+- I have assisted in the supervision of several PhD students in conjunction with principal investigators.
+
 ## Clear communication
+
+I take great satisfaction in presenting complex ideas clearly to non-experts:
+
+- Winner of the Vienna "Science Slam" 2013, presenting my research to the public.
+- Winner of the IST Austria "Best talk" for the internal seminar series 2014 for mixed audience of scientists.
+- My PhD thesis was nominated for "best thesis" in 2016 
