@@ -34,9 +34,9 @@ This is in contrast to most previous work which has investigated methylation var
 
 ## Scientific publications
 
-- Butković A., **Ellis, T. J. (joint first author)**, González, R., Jaegle, B., Nordborg, M., Elena S. F., (2022). A globally distributed major virus-resistance association in *Arabidopsis thaliana*, bioRxiv 2022.08.02.502433, doi: https://doi.org/10.1101/2022.08.02.502433
+- Butković A., **Ellis, T. J. (joint first author)**, González, R., Jaegle, B., Nordborg, M., Elena S. F., (2024), Genetic basis of Arabidopsis thaliana responses to infection by naïve and adapted isolates of turnip mosaic virus, eLife 2023;12:RP89749. DOI: https://doi.org/10.7554/eLife.89749 [PDF](/assets/pdfs/2024_butkovic_etal.pdf)
 - Dahan-Meir T., **Ellis, T. J.**, Mafessoni, F., Sela, H., Rudich O., Manisterski J., Avivi-Ragolsky N., Raz A., Feldman M., Anikster Y, Nordborg M., Levy AA, (2022), 36-year study reveals the effects of microhabitats on a wild wheat population,
-bioRxiv 2022.01.10.475641, doi: https://doi.org/10.1101/2022.01.10.475641
+bioRxiv 2022.01.10.475641, DOI: https://doi.org/10.1101/2022.01.10.475641
 - Durán, P., **Ellis, T. J. (joint first author)**, Thiergart, T. , Ågren, J. & Hacquard, S.,(2022) Climate drives rhizosphere microbiome variation and divergent selection between geographically distant Arabidopsis populations. New Phytologist, 236: 608–621. [PDF](/assets/pdfs/duran_new_phytol_2022.pdf)
 - **Ellis, T. J.**, Postma, F. M., Oakley, C. G., & Ågren, J. (2021). Life‐history trade‐offs and the genetic basis of fitness in *Arabidopsis thaliana*. Molecular Ecology, 30(12), 2846-2858. [PDF](/assets/pdfs/2021_fecundity_components.pdf)
 - Thiergart, T., Durán, P., **Ellis, T.**, Vannier, N., Garrido-Oter, R., Kemen, E., Roux F., Ågren J., Schulze-Lefert, P. & Hacquard, S. (2020). Root microbiota assembly and adaptive differentiation among European Arabidopsis populations. Nature ecology & evolution, 4(1), 122-131. [PDF](/assets/pdfs/2019_thiergart.pdf)
