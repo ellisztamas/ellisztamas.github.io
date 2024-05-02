@@ -34,6 +34,8 @@ This is in contrast to most previous work which has investigated methylation var
 
 ## Scientific publications
 
+- **Ellis, T. J.**, & Ågren, J. (2024). Adaptation to soil type contributes little to local adaptation in an Italian and a Swedish population of Arabidopsis thaliana growing on contrasting soils. bioRxiv 2024.04.24.590956; doi: https://doi.org/10.1101/2024.04.24.590956 
+- **Ellis, T. J.**, Field D. L., Barton, N. H. (2024), Joint estimation of paternity, sibships and pollen dispersal in a snapdragon hybrid zone. bioRxiv: 2024.01.05.574354, doi: https://doi.org/10.1101/2024.01.05.574354
 - Butković A., **Ellis, T. J. (joint first author)**, González, R., Jaegle, B., Nordborg, M., Elena S. F., (2024), Genetic basis of Arabidopsis thaliana responses to infection by naïve and adapted isolates of turnip mosaic virus, eLife 2023;12:RP89749. DOI: https://doi.org/10.7554/eLife.89749 [PDF](/assets/pdfs/2024_butkovic_etal.pdf)
 - Dahan-Meir T., **Ellis, T. J.**, Mafessoni, F., Sela, H., Rudich O., Manisterski J., Avivi-Ragolsky N., Raz A., Feldman M., Anikster Y, Nordborg M., Levy AA, (2022), 36-year study reveals the effects of microhabitats on a wild wheat population,
 bioRxiv 2022.01.10.475641, DOI: https://doi.org/10.1101/2022.01.10.475641
