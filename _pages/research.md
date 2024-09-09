@@ -34,7 +34,7 @@ This is in contrast to most previous work which has investigated methylation var
 
 ## Scientific publications
 
-- Dahan-Meir T., **Ellis, T. J.**, Mafessoni, F., Sela, H., Rudich O., Manisterski J., Avivi-Ragolsky N., Raz A., Feldman M., Anikster Y, Nordborg M., Levy AA, (in press), 36-year study reveals the effects of microhabitats on a wild wheat population. Molecular Ecology. [bioRxiv version](https://doi.org/10.1101/2022.01.10.475641)
+- Dahan-Meir T., **Ellis, T. J.**, Mafessoni, F., Sela, H., Rudich O., Manisterski J., Avivi-Ragolsky N., Raz A., Feldman M., Anikster Y, Nordborg M., Levy AA, (2024), 36-year study reveals the effects of microhabitats on a wild wheat population. Molecular Ecology, e17512. [PDF](/assets/pdfs/2024_dahan_etal.pdf).
 - **Ellis, T. J.**, & Ågren, J. (in press). Adaptation to soil type contributes little to local adaptation in an Italian and a Swedish population of Arabidopsis thaliana growing on contrasting soils. Biology Letters. [bioRxiv version](https://doi.org/10.1101/2024.04.24.590956).
 - Clauw, P., **Ellis, T. J. (joint first author)**, Liu, H. J., & Sasaki, E. (2024). Beyond the standard GWAS-a guide for plant biologists. Plant And Cell Physiology, pcae079. [PDF](/assets/pdfs/2024_clauw_etal.pdf)
 - **Ellis, T. J.**, Field D. L., Barton, N. H. (2024), Joint estimation of paternity, sibships and pollen dispersal in a snapdragon hybrid zone. [bioRxiv: 2024.01.05.574354](https://doi.org/10.1101/2024.01.05.574354)
