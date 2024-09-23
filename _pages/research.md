@@ -34,8 +34,10 @@ This is in contrast to most previous work which has investigated methylation var
 
 ## Scientific publications
 
+- **Ellis, T. J.**, Nizhynska V., Pisupati R., Mollá-Morales A., Nordborg M., 
+(2024), Bisulphite sequencing in the presence of cytosine-conversion errors, [bioRxiv 2024.09.16.613193](https://www.biorxiv.org/content/10.1101/2024.09.16.613193v1)
 - Dahan-Meir T., **Ellis, T. J.**, Mafessoni, F., Sela, H., Rudich O., Manisterski J., Avivi-Ragolsky N., Raz A., Feldman M., Anikster Y, Nordborg M., Levy AA, (2024), 36-year study reveals the effects of microhabitats on a wild wheat population. Molecular Ecology, e17512. [PDF](/assets/pdfs/2024_dahan_etal.pdf).
-- **Ellis, T. J.**, & Ågren, J. (in press). Adaptation to soil type contributes little to local adaptation in an Italian and a Swedish population of Arabidopsis thaliana growing on contrasting soils. Biology Letters. [bioRxiv version](https://doi.org/10.1101/2024.04.24.590956).
+- **Ellis, T. J.**, & Ågren, J. (2024). Adaptation to soil type contributes little to local adaptation in an Italian and a Swedish population of Arabidopsis thaliana growing on contrasting soils. Biology Letters. [Open access](https://royalsocietypublishing.org/doi/epdf/10.1098/rsbl.2024.0236).
 - Clauw, P., **Ellis, T. J. (joint first author)**, Liu, H. J., & Sasaki, E. (2024). Beyond the standard GWAS-a guide for plant biologists. Plant And Cell Physiology, pcae079. [PDF](/assets/pdfs/2024_clauw_etal.pdf)
 - **Ellis, T. J.**, Field D. L., Barton, N. H. (2024), Joint estimation of paternity, sibships and pollen dispersal in a snapdragon hybrid zone. [bioRxiv: 2024.01.05.574354](https://doi.org/10.1101/2024.01.05.574354)
 - Lee, G., Sanderson, B. J., **Ellis, T. J.**, Dilkes, B. P., McKay, J. K., Ågren, J., & Oakley, C. G. (2024). A large-effect fitness trade-off across environments is explained by a single mutation affecting cold acclimation. Proceedings of the National Academy of Sciences, 121(6), e2317461121.
