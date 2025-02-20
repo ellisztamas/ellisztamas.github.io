@@ -1,8 +1,9 @@
 ---
 title: A n00b assembles some genomes
+date: 2025-02-20
 toc: true
+layout: posts
 ---
-20th February 2025
 
 I recently had to assemble the genomes of four lines of *A. thaliana* using PacBio hifi data
 Sometimes it seems like the world and is dog are doing genome assemblies nowadays, but I had no experience of this, and could not find a good guide for how to go about this online.
