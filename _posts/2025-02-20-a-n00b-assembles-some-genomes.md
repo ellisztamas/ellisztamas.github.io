@@ -35,7 +35,7 @@ conda install -c bioconda pbtk
 bam2fastq -o raw_reads raw_reads.bam
 ```
 
-# Assembly
+# Assemble contigs
 
 ## Assembly with hifiasm
 
