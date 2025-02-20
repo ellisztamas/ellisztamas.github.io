@@ -29,9 +29,13 @@ I would highlight four key areas of expertise I have gained:
 
 ## Leadership and mentoring
 
+- I lead the organisation and experimental design of a European Research Council
+project on DNA methylation, liasing between multiple teams.
 - I have organised and led teams of volunteers in data collection for multiple large field experiments to strict deadlines.
 - I have initiated and led the organisation of three IST Austria PhD Symposia, as well as networking meetings for the Vienna evolutionary biology community.
 - I have assisted in the supervision of several PhD students in conjunction with principal investigators.
+- I set up a lab wiki to facilitate internal knowledge sharing.
+- Led a writing group of students and postdocs to improve each other’s writing skills.
 
 ## Clear communication
 

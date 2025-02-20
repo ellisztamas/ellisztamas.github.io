@@ -2,9 +2,10 @@
 layout: posts
 title: Assembling organelles from PacBio hifi reads
 ---
+25th February 2025
 
-I previously wrote about my experiences assembling *Arabidopsis thaliana*
-genomes using PacBio hifi reads, and some pitfalls I ran into.
+I previously wrote about my experiences [assembling *Arabidopsis thaliana*
+genomes]{% link _posts/2025-02-20-a-n00b-assembles-some-genomes.md %} using PacBio hifi reads, and some pitfalls I ran into.
 The focus was on autosomes, but I also wanted to get good assemblies for the
 chloroplast and mitochondria.
 In particular I want a good idea of what the chloroplasts look like, because 
@@ -19,7 +20,14 @@ Here I wanted to share what I learned about assembling organelles.
 As in previous posts I have simplified the paths and file names to make the code more readable, so the code won't work out of the box.
 To see the working script in action, see the [GitHub repo](https://github.com/ellisztamas/meth_pedigree/blob/main/03_processing/05_genome_assembly/06_assemble_organelles.sh) for this project.
 
-### Prepare the reads
+# Contents
+
+- [Prepare the reads](#prepare-the-reads)
+- [Assemble organelles, kinda](#assemble-organelles-kinda)
+- [Where are the output files?](#where-are-the-output-files)
+- [Concatenate autosomes and organelles](#concatenate-autosomes-and-organelles)
+
+# Prepare the reads
 
 I had the problem that I was able to get enough raw reads to cover the genome at >100x coverage, which I will admit is not a terrible problem to have.
 However, because cells have only one nucleus but tons of organelles, I first had to downsample the data to fit into memory so the assembler didn't melt.
@@ -34,7 +42,7 @@ bbmap/reformat.sh \
     sampleseed=1612
 ```
 
-### Assemble organelles, kinda
+# Assemble organelles, kinda
 
 The following command identifies and assembles organellar reads to the directory `tipp_dir`.
 `-g organelle` tells the program to assemble both the chloroplast and mitochondrion.
@@ -52,7 +60,7 @@ Normally I would never use `cd` in scripts, because this is a great way to get y
 I much prefer having a [project-oriented workflow](https://www.tidyverse.org/blog/2017/12/workflow-vs-script/), and defining paths relative to the root of that a project directory.
 However, TIPP doesn't have an option to define an output path, so I had to suck it up on this occasion.
 
-### Where are the output files?
+# Where are the output files?
 
 TIPP creates many output files, and the output is frankly baffling.
 The author of the package [told me](https://github.com/Wenfei-Xian/TIPP/issues/5#issue-2779824136) that for an input file named `downsampled_reads.fastq.gz` the final chloroplast assembly should be in a directory called `downsampled_reads.fastq.gz.organelle` and that the file should be named `downsampled_reads.fastq.gz.chloroplast.fasta.filter.800.round1.edge_3.edge_1.edge_2.organelle.chloroplast.fasta`.
@@ -78,7 +86,7 @@ or
 However, I couldn't find these files.
 In the end I decided that although I definitely need the chloroplast, I don't need the mitochondrion as urgently, so I did not follow up on this.
 
-### Concatenate autosomes and organelles
+# Concatenate autosomes and organelles
 
 I need a single FASTA file containing autosomes and organelles.
 

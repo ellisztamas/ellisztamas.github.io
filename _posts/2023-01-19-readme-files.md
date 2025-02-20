@@ -7,26 +7,17 @@ title: Writing README pages for research projects that don't suck
 
 Richard McElreath
 
-An important part of any transparent, reproducible research project is that it 
-should be understandable to our colleagues, be they direct collaborators who need
-to pick up o what you've done, other colleagues who want to follow our results,
-or even ourselves some months in the future.
-If the work cannot be reproduced, it is little more than garbage taking up space
-on a harddrive.
- 
-In my view an indespensible part of this is ensuring a research project is sufficiently well documented to allow
-someone else to work out what is going on.
-The first port of call is to have a clear README folder in the top level of any
-project folder.
-This is the first place to look for others (or future you!) understand what the 
-project is about and how to navigate it, or to decide whether the folder can be archived.
+Research projects need to be transparent to others so folks can work out what
+you've done, be they collaborators, or just future you.
+An indispensible part of this is to have a clear README file in the top level of
+any project folder.
 However, it is rare for research groups to have any agreed guidelines on what 
 information should be included, nor have I ever seen any training courses or
 online resources mention this.
+
 I have certainly written a lot of bad README files in the past, if I wrote one 
 at all, which has repeatedly come back to bite me when I've needed to revisit 
 what I'd done later.
-
 That said, I do think I have learned a few things from trying to interpet my own
 and others' research projects.
 In this post I try to distill some of those lessons and give a template for 
@@ -34,7 +25,20 @@ how to put together a solid README file for a research project.
 Since each project is different, it's hard to give hard rules, but I hope that 
 this post can serve as a template you can adapt for your own work.
 
-## What information do you need to convey?
+# Contents
+
+- [What information do you need to convey?](#what-information-do-you-need-to-convey)
+- [Sections of a project README](#sections-of-a-project-readme)
+   * [Introduction](#introduction)
+   * [Table of contents](#table-of-contents)
+   * [Experimental set up](#experimental-set-up)
+   * [Data files](#data-files)
+   * [Dependencies](#dependencies)
+   * [Author information](#author-information)
+   * [License](#license)
+- [Example README templates](#example-readme-templates)
+
+# What information do you need to convey?
 
 If someone comes across your project they need to know:
 
@@ -48,14 +52,14 @@ If someone comes across your project they need to know:
 Construct a README file with a section addressing each of these points.
 Let's go over each in turn.
 
-## Sections of a project README
+# Sections of a project README
 
-### Introduction
+## Introduction
 
 Give an informative title and a short overview (in one or two sentences) of what the project is about here.
 You can also include links to, for example, a GitHub repository, electronic notebook entries, or a manuscript.
 
-### Table of contents
+## Table of contents
 
 If your project folder is shared on GitHub and the README is in markdown format (i.e. it ends in `.md`), README files will be rendered into HTML.
 It is not essential, but if so you can include a [table of contents](https://thelinuxcode.com/markdown-table-contents/) to aid navigation with links to each section.
@@ -63,17 +67,17 @@ See also the example READMEs given below - they will be rendered by default on
 GitHub, but click on the README file itself on the folder overview, then on the
 "Raw" button to see the raw markdown code.
 
-### Experimental set up
+## Experimental set up
 
 Give a short overview of what you did.
 This doesn't have to be exhaustive - you can link to somewhere the reader can find the details, like an electronic notebook, or other write-up.
 
-### Data files
+## Data files
 
 Give an overview of the data/data types you collected, and where to find it.
 If there is a lot, consider placing one or more separate README file(s) in your data folder that goes into more detail, and mention in your main README where to find the data README.
 
-### Dependencies
+## Dependencies
 
 If someone is going to follow what you've done they need to know what packages they need.
 At a minimum give a list of the important ones with package versions.
@@ -81,19 +85,19 @@ If you have used something like `conda`, give an `environment.yml` file in the t
 level of your folder.
 If you use <code>renv</code> in R see the section on [https://rstudio.github.io/renv/articles/renv.html#collaboration collaboration].
 
-### Author information
+## Author information
 
 This is often overlooked, but it is actually really useful to include information on who did what.
 This makes it much easier to work out what was done if someone comes back to it later.
 
 It also helps to include your name and the date at the top of your scripts for the same reason.
 
-### License
+## License
 
 If any of your could ever be shared, it is a good idea to include a license to state what/how people can use it.
 See https://choosealicense.com/ for how to choose a license. If you aren't sure, use the MIT license.
 
-## Example README templates
+# Example README templates
 
 Here are a few examples of projects with READMEs I have written.
 They differ in scale and complexity, so the READMEs do as well.

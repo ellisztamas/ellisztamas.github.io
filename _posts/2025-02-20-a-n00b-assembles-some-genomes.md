@@ -2,6 +2,7 @@
 layout: posts
 title: A n00b assembles some genomes
 ---
+20th February 2025
 
 I recently had to assemble the genomes of four lines of *A. thaliana* using PacBio hifi data
 Sometimes it seems like the world and is dog are doing genome assemblies nowadays, but I had no experience of this, and could not find a good guide for how to go about this online.
@@ -12,7 +13,22 @@ This page will give code snippets to illustrate what I'm doing.
 I have simplified the paths to make them easier to read, but that means they won't run out of the box.
 Full scripts to repeat this are on the [GitHub repo](https://github.com/ellisztamas/meth_pedigree/tree/main/03_processing/05_genome_assembly), but be aware that the repo is fluid.
 
-## The data
+# Contents
+
+- [The data](#the-data)
+- [Assembly](#assembly)
+  * [Assembly with hifiasm](#assembly-with-hifiasm)
+  * [Convert to FASTA](#convert-to-fasta)
+- [Scaffolding](#scaffolding)
+  * [Basic scaffolding with RagTag](#basic-scaffolding-with-ragtag)
+  * [Tidy the sequence headers](#tidy-the-sequence-headers)
+- [See what the assembly looks like](#see-what-the-assembly-looks-like)
+  * [Plot the contigs](#plot-the-contigs)
+  * [Plot the scaffolded assembly](#plot-the-scaffolded-assembly)
+
+<!-- tocstop -->
+
+# The data
 
 Our institute's sequencing facility wanted to test a new machine, so we ended up with enough reads for theoretical coverage of 155x and 256x.
 That's a lot of data!
@@ -33,9 +49,9 @@ conda install -c bioconda pbtk
 bam2fastq -o raw_reads raw_reads.bam
 ```
 
-## Assembly
+# Assembly
 
-### Assembly with hifiasm
+## Assembly with hifiasm
 
 Assembly involves comparing all reads to one another and aligning reads that match to form **contigs**.
 A contig is a set of reads that overlap form a continuous consensus sequence with no gaps.
@@ -71,7 +87,7 @@ I passed the following SLURM options to request all the threads on a single comp
 
 Using a whole compute node, my very large fastq files took five to six hours to assemble.
 
-### Convert to FASTA
+## Convert to FASTA
 
 `hifiasm` generates many output files, expecting the genome to be heterozygous like a human. Notably:
 
@@ -86,9 +102,9 @@ Convert this to FASTA format using `awk`:
 awk '/^S/{print ">"$2; print $3}' my_assembly.asm.bp.hap1.p_ctg.gfa > my_assembly.fasta
 ```
 
-## Scaffolding
+# Scaffolding
 
-### Basic scaffolding with RagTag
+## Basic scaffolding with RagTag
 
 Scaffolding is the process of aligning contigs to a known reference genome to get them into the right order and make sense of where and how large gaps between contigs are.
 I used [RagTag](https://github.com/malonge/RagTag) to scaffold raw contigs.
@@ -126,7 +142,7 @@ I again took the additional arguments from Rabanal *et al.* since they had optim
 
 I used `-f 10000`, but in hindsight I would consider a minimum contig size of 100,000 to exclude a large number of organelle and rDNA repeats that tend to make a mess of things.
 
-### Tidy the sequence headers
+## Tidy the sequence headers
 
 RagTag returns FASTA files with sequences headers that merge headers from the reference genome and `_RagTag`, such as `Chr1_RagTag`.
 As Marie Kondo would say, this does not spark joy.
@@ -136,9 +152,9 @@ I used awk to remove the `_RagTag` suffix from scaffolded assembly file `ragtag.
 awk '/^>/ {sub("_RagTag", "", $1)} 1' ragtag.scaffold.fasta > tidied_assembly.fasta
 ```
 
-## See what the assembly looks like
+# See what the assembly looks like
 
-### Plot the contigs
+## Plot the contigs
 
 RagTag generates a .paf file, which lists regions of homology between contigs and the refrence genome.
 You can visualise this with the R package [pafr](https://dwinter.github.io/pafr/).
@@ -172,7 +188,7 @@ These are missing in the reference genome, but are well covered in the HiFi data
 On the right-hand side you can see a large number of horizontal stripes.
 These are fragments of <100kb that are mostly copies of the chloroplast genome, with some copies of rDNA and mitochondrial sequences.
 
-### Plot the scaffolded assembly
+## Plot the scaffolded assembly
 
 I used [pannagram](https://github.com/iganna/pannagram) to plot scaffolded assemblies against a reference genome.
 Pannagram is a program for investigating structural variation between genomes.

@@ -1,9 +1,11 @@
+---
+layout: posts
+title: Writing README pages for research projects that don't suck
+---
+
 19th January 2023
 
-Talk about other suggestions and why they don't work (eg PENG)
-
-
-I can remember putting together the data and initial analyses for the first project of my PhD and having a sense that there must be better or worse ways to put the folder together
+I can remember the first project I did during my PhD, and I remember thinking that there must  be better or worse ways to organise the data and analyses.
 Lacking training or experience I made a dog's dinner of it, and I ended up starting it over at least once.
 Since then I have created more terrible project folders than I can count, but I can at least say that they have got progressively less bad through the years, to the point that I believe I have come up with a system that can be generally applied to a pretty wide range of projects that your average biologist is likely to come up against, especially those with more than tiny amounts of data analysis.
 
@@ -12,13 +14,6 @@ This post is an attempt to give an overview of the structure I use for my projec
 It may not work for every project you might work on, but it is general enough for most to serve as a good starting point.
 
 ## Why worry about folder structure?
-
-Compare approaches to city planning in Vienna and Los Angeles:
-
-* Vienna has had a clear plan for what goes where since before the First World War. As districts expand, they go hand in hand with schools, hospitals etc, and the result is compact and functional.
-* Los Angeles is a notorious planning free for all - the city is a sprawling mess of suburbs, strip malls and constricted freeways.
-
-This page will try to convince you of the need to start a project with a solid structure so your project ends up like Vienna rather than Los Angeles.
 
 Here are some things that Are True about a lot of research projects, at least in biology:
 
@@ -29,7 +24,7 @@ Here are some things that Are True about a lot of research projects, at least in
 
 So, a project folder needs to allow for the **flexibility** of very non-linear projects, but still be **transparent and easy to navigate** for someone else or future you. Actively documenting what you have done by annotating your code and [writing READMEs]{% link _posts/2023-09-21-readme-pages-for-research-projects.md %} is one, important, part of it. However, you can also help yourself enormously by structuring your project folder in a way that makes it easy to know where things are and what order to run things in. Sticking to that structure is like a partial passive documentation. The best way to do this might depends on the project at hand, but the template outlined below will work in most cases - it is much better to start with some kind of structure than nothing at all.
 
-It is strongly recommended to **start a project folder with a clear structure right from the beginning of a project** and fill in as you go, because that way you set up a scaffold and just 'fill in the blanks'. It is unwise to start with no structure and tell yourself that you will tidy it later, because realistically you won't.
+I strongly recommended **starting a project folder with a clear structure right from the beginning of a project** and fill in as you go, because that way you set up a scaffold and just 'fill in the blanks'. It is unwise to start with no structure and tell yourself that you will tidy it later, because realistically you won't.
 
 <!-- Note that when it comes to **writing a manuscript** not everything above applies, and you probably want to take a [https://wiki.nordborg.vbc.ac.at/index.php/Folder_for_manuscripts slightly different approach]. -->
 
