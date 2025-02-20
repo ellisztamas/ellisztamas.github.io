@@ -1,6 +1,7 @@
 ---
 layout: posts
 title: A n00b assembles some genomes
+toc: true
 ---
 20th February 2025
 
@@ -12,21 +13,6 @@ This post is based on what he suggested, and I have expanded on some of the thin
 This page will give code snippets to illustrate what I'm doing.
 I have simplified the paths to make them easier to read, but that means they won't run out of the box.
 Full scripts to repeat this are on the [GitHub repo](https://github.com/ellisztamas/meth_pedigree/tree/main/03_processing/05_genome_assembly), but be aware that the repo is fluid.
-
-# Contents
-
-- [The data](#the-data)
-- [Assembly](#assembly)
-  * [Assembly with hifiasm](#assembly-with-hifiasm)
-  * [Convert to FASTA](#convert-to-fasta)
-- [Scaffolding](#scaffolding)
-  * [Basic scaffolding with RagTag](#basic-scaffolding-with-ragtag)
-  * [Tidy the sequence headers](#tidy-the-sequence-headers)
-- [See what the assembly looks like](#see-what-the-assembly-looks-like)
-  * [Plot the contigs](#plot-the-contigs)
-  * [Plot the scaffolded assembly](#plot-the-scaffolded-assembly)
-
-<!-- tocstop -->
 
 # The data
 

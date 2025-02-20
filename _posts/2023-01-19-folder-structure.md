@@ -1,6 +1,7 @@
 ---
 layout: posts
 title: Writing README pages for research projects that don't suck
+toc: true
 ---
 
 19th January 2023

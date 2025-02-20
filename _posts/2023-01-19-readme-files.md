@@ -1,6 +1,7 @@
 ---
 layout: posts
 title: Writing README pages for research projects that don't suck
+toc: true
 ---
 
 > Science is a game of show-and-tell, not hide-and-seek.

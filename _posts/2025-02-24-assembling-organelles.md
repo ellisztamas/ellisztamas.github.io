@@ -1,6 +1,7 @@
 ---
 layout: posts
 title: Assembling organelles from PacBio hifi reads
+toc: true
 ---
 25th February 2025
 
@@ -19,13 +20,6 @@ See the [GitHub](https://github.com/Wenfei-Xian/TIPP) page and [paper](https://d
 Here I wanted to share what I learned about assembling organelles.
 As in previous posts I have simplified the paths and file names to make the code more readable, so the code won't work out of the box.
 To see the working script in action, see the [GitHub repo](https://github.com/ellisztamas/meth_pedigree/blob/main/03_processing/05_genome_assembly/06_assemble_organelles.sh) for this project.
-
-# Contents
-
-- [Prepare the reads](#prepare-the-reads)
-- [Assemble organelles, kinda](#assemble-organelles-kinda)
-- [Where are the output files?](#where-are-the-output-files)
-- [Concatenate autosomes and organelles](#concatenate-autosomes-and-organelles)
 
 # Prepare the reads
 
