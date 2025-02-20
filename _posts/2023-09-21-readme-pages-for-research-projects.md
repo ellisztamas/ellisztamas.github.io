@@ -7,15 +7,14 @@ title: Writing README pages for research projects that don't suck
 
 Richard McElreath
 
-An important part of any transparant, reproducible research project is that it 
+An important part of any transparent, reproducible research project is that it 
 should be understandable to our colleagues, be they direct collaborators who need
 to pick up o what you've done, other colleagues who want to follow our results,
 or even ourselves some months in the future.
 If the work cannot be reproduced, it is little more than garbage taking up space
 on a harddrive.
  
-In my view an indespensible part of
-this is ensuring a research project is sufficiently well documented to allow
+In my view an indespensible part of this is ensuring a research project is sufficiently well documented to allow
 someone else to work out what is going on.
 The first port of call is to have a clear README folder in the top level of any
 project folder.
@@ -102,3 +101,4 @@ They differ in scale and complexity, so the READMEs do as well.
 1. [A project on virus resistance in *A. thaliana*](https://github.com/ellisztamas/tumv_ms)
 2. [Adaptation to soil type](https://github.com/ellisztamas/soil_adaptation_ellis_agren)
 3. [Genotyping errors in bisulphite-converted sequence data](https://github.com/ellisztamas/bs_seq_with_typing_errors)
+4. [Life-history trade-offs in *A. thaliana*](https://github.com/ellisztamas/fecundity_components)
