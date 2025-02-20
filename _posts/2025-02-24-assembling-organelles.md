@@ -1,5 +1,4 @@
 ---
-layout: posts
 title: Assembling organelles from PacBio hifi reads
 toc: true
 ---

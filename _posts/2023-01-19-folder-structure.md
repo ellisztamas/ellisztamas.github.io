@@ -100,17 +100,21 @@ The goal here is to identify the smallest questions possible and address them on
 
 #### Example result
 
-Here is an example of how a result subfolder might look for the example of the [https://wiki.nordborg.vbc.ac.at/index.php/Kruskall-Wallis_GWA_(using_PyGWAS) Kruskall-Wallis GWA example].
+Here is an example of how a result subfolder might look like for a simple GWAS
+analysis of a disease phenotype.
 
- <nowiki>
+The directory contains scripts numbered to indicate the order they should be run
+in, a directory to store the results, and a summary of the results.
+```
 output
-kruskall_wallis_gwas.sh
-format_phenotypes.R
-results_summary.md</nowiki>
+01_format_phenotypes.R
+02_kruskall_wallis_gwas.sh
+results_summary.md
+```
 
-`kruskall_wallis_gwas.sh` is a SLURM submission script that calls `format_phenotypes.R` internally and saves the output to the folder `output`. The results summary file might look something like this
-
- <nowiki># 017_kruskal-wallis-gwas
+`02_kruskall_wallis_gwas.sh` is a SLURM submission script that calls `01 format_phenotypes.R` internally and saves the output to the folder `output`. The results summary file might look something like this
+```
+ # 017_kruskal-wallis-gwas
 
 **Date:** 26th March 2021s
 **Author:** Tom Ellis
@@ -133,29 +137,22 @@ The output of PyGWAS won't upload to GWASviewer, which is odd because they were 
 
 ## Follow-up
 Repeat GWA but condition on the major association on Chr2.</nowiki>
+```
 
-=== Reports ===
+### Reports
 
 A folder to store scientific reports.
 
 This is intended for times when you need to synthesise several results from your results folder into a single document, such as for a progress report or to summarise things to external collaborators.
 It is not the same as a manuscript.
 
-=== Presentations ===
+### Presentations
 
 A folder to store files for presentations, which will usually cover multiple results.
 You would probably make a separate subfolder for each presentation.
 
-=== Manuscript ===
+### Manuscript
 
 From friends in other groups you may have heard tell of the legend of a mystical dreamland where projects are "finished" and ready for publication. You know not whether this can be true, only that the road to get here has been long, and many a grey hair has accumulated atop your worried brow.
 
-At this point it is probably worth taking time to review what you have done so far and what actually needs to go into a paper, and to [https://wiki.nordborg.vbc.ac.at/index.php/Folder_for_manuscripts create a fresh folder] just to present the code and data for the manuscript. That might be a completely new folder, especially if you need to synthesise data from more than one existing project folder. If the manuscript will be based only on things in one existing project folder, then it would make sense to put it here.
-
-== Create your project folder ==
-
-There's a copy of a blank project folder at `/groups/nordorg/common_data/template_project_folder` that you can copy to `/groups/nordborg/projects`, kinda.
-
-To stop things getting messy, only Almudena and IT have write access to the main projects folder, so you can't create a project folder yourself. To create a new project folder, put in a ticket to IT asking them to create a folder and say who should have write access, then copy the contents of the template over:
-
- <nowiki>cp -r /groups/nordborg/common_data/template_project_folder/* /groups/nordborg/projects/my_great_project/</nowiki>
+At this point it is probably worth taking time to review what you have done so far and what actually needs to go into a paper, and to create a fresh folder just to present the code and data for the manuscript. That might be a completely new folder, especially if you need to synthesise data from more than one existing project folder. If the manuscript will be based only on things in one existing project folder, then it would make sense to put it here.

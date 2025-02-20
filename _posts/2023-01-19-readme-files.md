@@ -1,5 +1,4 @@
 ---
-layout: posts
 title: Writing README pages for research projects that don't suck
 toc: true
 ---
@@ -25,19 +24,6 @@ In this post I try to distill some of those lessons and give a template for
 how to put together a solid README file for a research project.
 Since each project is different, it's hard to give hard rules, but I hope that 
 this post can serve as a template you can adapt for your own work.
-
-# Contents
-
-- [What information do you need to convey?](#what-information-do-you-need-to-convey)
-- [Sections of a project README](#sections-of-a-project-readme)
-   * [Introduction](#introduction)
-   * [Table of contents](#table-of-contents)
-   * [Experimental set up](#experimental-set-up)
-   * [Data files](#data-files)
-   * [Dependencies](#dependencies)
-   * [Author information](#author-information)
-   * [License](#license)
-- [Example README templates](#example-readme-templates)
 
 # What information do you need to convey?
 

@@ -1,5 +1,4 @@
 ---
-layout: posts
 title: A n00b assembles some genomes
 toc: true
 ---
