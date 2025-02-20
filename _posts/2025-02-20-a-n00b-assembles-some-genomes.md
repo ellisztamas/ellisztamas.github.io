@@ -2,7 +2,6 @@
 title: A n00b assembles some genomes
 date: 2025-02-20
 toc: true
-layout: posts
 ---
 
 I recently had to assemble the genomes of four lines of *A. thaliana* using PacBio hifi data
