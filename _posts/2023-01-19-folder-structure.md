@@ -1,6 +1,5 @@
 ---
-layout: posts
-title: Writing README pages for research projects that don't suck
+title: How to structure a research project
 toc: true
 ---
 
