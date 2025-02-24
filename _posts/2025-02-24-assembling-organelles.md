@@ -5,7 +5,7 @@ toc: true
 25th February 2025
 
 I previously wrote about my experiences [assembling *Arabidopsis thaliana*
-genomes]{% link _posts/2025-02-20-a-n00b-assembles-some-genomes.md %} using PacBio hifi reads, and some pitfalls I ran into.
+genomes]({% link _posts/2025-02-20-a-n00b-assembles-some-genomes.md %}) using PacBio hifi reads, and some pitfalls I ran into.
 The focus was on autosomes, but I also wanted to get good assemblies for the
 chloroplast and mitochondria.
 In particular I want a good idea of what the chloroplasts look like, because 
