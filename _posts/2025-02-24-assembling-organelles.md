@@ -71,11 +71,10 @@ awk '/^>/ { if (c++) exit; } { print }' $tippo_chloroplast |
 ```
 
 The package author also told me that the mitochondrion assembly should be in the directory
-```downsampled_reads.fastq.gz.mitochondrial.fasta.filter.fasta.flye```
-and that I should look for files
-```assembly_graph.gfa```
-or
-```50.repeat-graph/graph_before_rr.gfa```.
+```
+downsampled_reads.fastq.gz.mitochondrial.fasta.filter.fasta.flye
+```
+and that I should look for files `assembly_graph.gfa` or `50.repeat-graph/graph_before_rr.gfa`.
 However, I couldn't find these files.
 In the end I decided that although I definitely need the chloroplast, I don't need the mitochondrion as urgently, so I did not follow up on this.
 
