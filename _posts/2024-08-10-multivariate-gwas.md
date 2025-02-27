@@ -2,6 +2,7 @@
 title: "Multitrait GWAS: Why can combining traits improve power?"
 toc: true
 ---
+10th August 2024
 
 ## Why combine traits?
 

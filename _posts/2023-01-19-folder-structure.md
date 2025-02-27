@@ -2,7 +2,6 @@
 title: How to structure a research project
 toc: true
 ---
-
 19th January 2023
 
 I can remember the first project I did during my PhD, and I remember thinking that there must  be better or worse ways to organise the data and analyses.

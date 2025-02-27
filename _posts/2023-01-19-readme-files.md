@@ -2,6 +2,7 @@
 title: Writing README pages for research projects that don't suck
 toc: true
 ---
+19th January 2023
 
 > Science is a game of show-and-tell, not hide-and-seek.
 
