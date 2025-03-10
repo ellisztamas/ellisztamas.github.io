@@ -4,6 +4,8 @@ permalink: /posts/
 toc: false
 ---
 
+I occasionally post about things people frequently ask me about.
+
 <ul>
   {% for post in site.posts %}
     <li>

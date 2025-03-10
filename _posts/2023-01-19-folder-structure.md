@@ -4,13 +4,10 @@ toc: true
 ---
 19th January 2023
 
-I can remember the first project I did during my PhD, and I remember thinking that there must  be better or worse ways to organise the data and analyses.
-Lacking training or experience I made a dog's dinner of it, and I ended up starting it over at least once.
-Since then I have created more terrible project folders than I can count, but I can at least say that they have got progressively less bad through the years, to the point that I believe I have come up with a system that can be generally applied to a pretty wide range of projects that your average biologist is likely to come up against, especially those with more than tiny amounts of data analysis.
+I've [previously argued]( % link _posts/2023-01-18-separate-project-folders.md % ) that it is a good idea to maintain separate folders for day-to-day project work on data analysis projects from the folders you would use to submit the same project manuscript to a journal.
 
-I can't be the only one who has experienced something like this, yet I am consistently astonished about how little this is talked about.
-This post is an attempt to give an overview of the structure I use for my projects and why I think it works.
-It may not work for every project you might work on, but it is general enough for most to serve as a good starting point.
+This post contains some opinionated suggestions about how to do the first of these.
+See here for [how to structure a manuscript folder]( % link _posts/2023-01-20-manuscript-folder.md %).
 
 ## Why worry about folder structure?
 
@@ -24,8 +21,6 @@ Here are some things that Are True about a lot of research projects, at least in
 So, a project folder needs to allow for the **flexibility** of very non-linear projects, but still be **transparent and easy to navigate** for someone else or future you. Actively documenting what you have done by annotating your code and [writing READMEs]({% link _posts/2023-01-19-readme-files.md %}) is one, important, part of it. However, you can also help yourself enormously by structuring your project folder in a way that makes it easy to know where things are and what order to run things in. Sticking to that structure is like a partial passive documentation. The best way to do this might depends on the project at hand, but the template outlined below will work in most cases - it is much better to start with some kind of structure than nothing at all.
 
 I strongly recommended **starting a project folder with a clear structure right from the beginning of a project** and fill in as you go, because that way you set up a scaffold and just 'fill in the blanks'. It is unwise to start with no structure and tell yourself that you will tidy it later, because realistically you won't.
-
-<!-- Note that when it comes to **writing a manuscript** not everything above applies, and you probably want to take a [https://wiki.nordborg.vbc.ac.at/index.php/Folder_for_manuscripts slightly different approach]. -->
 
 ## A template structure
 
