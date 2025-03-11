@@ -1,6 +1,5 @@
 ---
 title: "Separate project folders from manuscripts in data analysis projects"
-toc: true
 ---
 18th January 2023
 
