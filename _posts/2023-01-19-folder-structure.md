@@ -4,10 +4,10 @@ toc: true
 ---
 19th January 2023
 
-I've [previously argued]( % link _posts/2023-01-18-separate-project-folders.md % ) that it is a good idea to maintain separate folders for day-to-day project work on data analysis projects from the folders you would use to submit the same project manuscript to a journal.
+I've [previously argued]({% link _posts/2023-01-18-separate-project-folders.md %}) that it is a good idea to maintain separate folders for day-to-day project work on data analysis projects from the folders you would use to submit the same project manuscript to a journal.
 
 This post contains some opinionated suggestions about how to do the first of these.
-See here for [how to structure a manuscript folder]( % link _posts/2023-01-20-manuscript-folder.md %).
+See here for [how to structure a manuscript folder]({% link _posts/2023-01-20-manuscript-folder.md %}).
 
 ## Why worry about folder structure?
 
@@ -18,7 +18,7 @@ Here are some things that Are True about a lot of research projects, at least in
 * Projects are often exploratory and may not have a clear question. That's fine, but you want to be able to keep track of things you've explored.
 * If anyone else needs to use or follow up on what you've done, this should be easy for them to work out.
 
-So, a project folder needs to allow for the **flexibility** of very non-linear projects, but still be **transparent and easy to navigate** for someone else or future you. Actively documenting what you have done by annotating your code and [writing READMEs]({% link _posts/2023-01-19-readme-files.md %}) is one, important, part of it. However, you can also help yourself enormously by structuring your project folder in a way that makes it easy to know where things are and what order to run things in. Sticking to that structure is like a partial passive documentation. The best way to do this might depends on the project at hand, but the template outlined below will work in most cases - it is much better to start with some kind of structure than nothing at all.
+So, a project folder needs to allow for the **flexibility** of very non-linear projects, but still be **transparent and easy to navigate** for someone else or future you. Actively documenting what you have done by annotating your code and [writing READMEs]({% link _posts/2023-09-21-readme-files.md %}) is one, important, part of it. However, you can also help yourself enormously by structuring your project folder in a way that makes it easy to know where things are and what order to run things in. Sticking to that structure is like a partial passive documentation. The best way to do this might depends on the project at hand, but the template outlined below will work in most cases - it is much better to start with some kind of structure than nothing at all.
 
 I strongly recommended **starting a project folder with a clear structure right from the beginning of a project** and fill in as you go, because that way you set up a scaffold and just 'fill in the blanks'. It is unwise to start with no structure and tell yourself that you will tidy it later, because realistically you won't.
 
@@ -42,7 +42,7 @@ There are eight main folders with names that make obvious, or mostly obvious, wh
 
 There are a couple of other things there:
 
-* `README.md` tells the reader what the folder is about and how to use it. [It is absolutely essential]({% link _posts/2023-01-19-readme-files.md %}).
+* `README.md` tells the reader what the folder is about and how to use it. [It is absolutely essential]({% link _posts/2023-09-21-readme-files.md %}).
 * `slurm`: The HPC where I work uses SLURM to schedule compute jobs. This serves as a folder to store the `.out` and `.err` files that those jobs generate.
 * `LICENSE` is a license file telling people what they can and cannot do with your code. It's a good idea to include one if your code goes on GitHub. See [https://choosealicense.com/ https://choosealicense.com/] for how to choose a license. If you aren't sure, use the MIT license.
 
@@ -149,4 +149,4 @@ You would probably make a separate subfolder for each presentation.
 
 From friends in other groups you may have heard tell of the legend of a mystical dreamland where projects are "finished" and ready for publication. You know not whether this can be true, only that the road to get here has been long, and many a grey hair has accumulated atop your worried brow.
 
-At this point it is probably worth taking time to review what you have done so far and what actually needs to go into a paper, and to create a fresh folder just to present the code and data for the manuscript. That might be a completely new folder, especially if you need to synthesise data from more than one existing project folder. If the manuscript will be based only on things in one existing project folder, then it would make sense to put it here.
+At this point it is probably worth taking time to review what you have done so far and what actually needs to go into a paper, and to [create a fresh folder]({% link _posts/2023-01-20-manuscript-folder.md %}) just to present the code and data for the manuscript. That might be a completely new folder, especially if you need to synthesise data from more than one existing project folder. If the manuscript will be based only on things in one existing project folder, then it would make sense to put it here.

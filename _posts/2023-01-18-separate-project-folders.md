@@ -20,10 +20,10 @@ That creates the illusion that everyone else is writing beautiful concise code t
 
 A simple way to resolve this contradiction is to separate the two stages of doing research.
 
-1. Start with a clear [project structure]( % link _posts/2023-01-19-folder-structure.md %) which can evolve through time.
+1. Start with a clear [project structure]({% link _posts/2023-01-19-folder-structure.md %}) which can evolve through time.
 2. When it comes to write it up, create a new folder and recreate the steps needed to process the data, run the analyses and create the figures.
 
 This way you can have the best of both worlds: a flexible project structure for day-to-day work, and a clear, concise repository for the manuscript. I have Views on both of these stages:
 
-1. [How to structure a research project]( % link _posts/2023-01-19-folder-structure.md %)
-2. [Project folders for manuscripts]( % link _posts/2023-01-20-manuscript-folder.md %)
+1. [How to structure a research project]({% link _posts/2023-01-19-folder-structure.md %})
+2. [Project folders for manuscripts]({% link _posts/2023-01-20-manuscript-folder.md %})

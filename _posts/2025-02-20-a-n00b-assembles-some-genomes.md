@@ -56,7 +56,7 @@ hifiasm \
 ```
 
 You can speed this up by processing reads in parallel on multiple threads.
-I ran this on the VBC CLIP computing cluster, which uses the job scheduler SLURM, and ${SLURM_CPUS_PER_TASK} tells the scheduler to use as many threads as are available.
+I ran this on the VBC CLIP computing cluster, which uses the job scheduler SLURM, and `${SLURM_CPUS_PER_TASK}` tells the scheduler to use as many threads as are available.
 I passed the following SLURM options to request all the threads on a single computing node, with 4gb memory each:
 ```
 #SBATCH --nodes=1
