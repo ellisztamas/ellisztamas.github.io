@@ -172,10 +172,3 @@ exp_design <- exp_design %>%
   )
 ```
 
-If we plot a histogram we can see we have a normally distributed phenotype as one would expect.
-
-```{r}
-exp_design %>% 
-  ggplot(aes(x = normal_phenotype)) +
-  geom_histogram()
-```
