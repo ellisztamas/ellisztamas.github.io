@@ -25,7 +25,7 @@ There are some very good reasons for doing this:
 I am working on a project that compares a set of 211 parental lines of
 *A. thaliana* to two cohorts of 206 and 205 lines of their F9 progeny
 that had been through one round of random mating to reduce [linkage
-disequilibrium](%7B%%20link%20_posts/2025-02-12-ld.md%20%%7D). Last year
+disequilibrium]({ % link _posts/2025-02-12-ld.md % }). Last year
 I did an experiment to quantify some phenotypes for those 622 lines.
 
 -   There are 622 lines
