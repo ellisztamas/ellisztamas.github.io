@@ -27,7 +27,7 @@ However, because cells have only one nucleus but tons of organelles, I first had
 I did this with `reformat.sh` from the [BBmap](https://archive.jgi.doe.gov/data-and-tools/software-tools/bbtools/bb-tools-user-guide/reformat-guide/) package.
 This command takes the enormous fastq file that I used for the assembly with `hifiasm` and randomly samples 10% of those reads.
 
-```
+```sh
 bbmap/reformat.sh \
     in= raw_reads.fastq.gz \
     out=downsampled_reads.fastq.gz \
@@ -40,7 +40,7 @@ bbmap/reformat.sh \
 The following command identifies and assembles organellar reads to the directory `tipp_dir`.
 `-g organelle` tells the program to assemble both the chloroplast and mitochondrion.
 
-```
+```sh
 cd tipp_dir
 TIPPo.v2.4.pl \
     -t 8 \
@@ -61,7 +61,7 @@ The author of the package [told me](https://github.com/Wenfei-Xian/TIPP/issues/5
 TIPP creates two assemblies for the chloroplast, because it can be that a single genome contains more than one chloroplast genome.
 In my case they were identical, so I used the following command to pull out the first assembly and rename it to `my_chloroplast.fasta`. This also changes the sequence key from "Configuration1" to "ChrC".
 
-```
+```sh
 # Find the assembly file.
 tippo_chloroplast=$(find downsampled_reads.fastq.gz.organelle/*edge*fasta)
 # Pull out the sequence with the key ">Configuration1"
@@ -84,7 +84,7 @@ I need a single FASTA file containing autosomes and organelles.
 
 I used the assembled chloroplast, but since I couldn't get the mitochondrion to work, I used the mitochondrion from the TAIR10 reference genome.
 
-```
+```sh
 cat autosome_assembly.fasta \
     chloroplast_assembly.fasta \
     TAIR10_ChrM.fasta \

@@ -46,7 +46,7 @@ We're seldom that lucky, so this is typically the first step towards a usable ge
 Assembling HiFi reads is surprisingly straightforward with [hifiasm](https://hifiasm.readthedocs.io/en/latest/index.html).
 The following command assembles raw reads in `raw_reads.fastq.gz` and output the results to an output directory `hifi_output`.
 
-```
+```sh
 hifiasm \
     -o hifi_output/my_assembly \
     -t ${SLURM_CPUS_PER_TASK} \
@@ -58,7 +58,7 @@ hifiasm \
 You can speed this up by processing reads in parallel on multiple threads.
 I ran this on the VBC CLIP computing cluster, which uses the job scheduler SLURM, and `${SLURM_CPUS_PER_TASK}` tells the scheduler to use as many threads as are available.
 I passed the following SLURM options to request all the threads on a single computing node, with 4gb memory each:
-```
+```sh
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=38
@@ -83,7 +83,7 @@ Using a whole compute node, my very large fastq files took five to six hours to 
 Because we are working with a selfer we can just use the main assembly.
 Convert this to FASTA format using `awk`:
 
-```
+```sh
 awk '/^S/{print ">"$2; print $3}' my_assembly.asm.bp.hap1.p_ctg.gfa > my_assembly.fasta
 ```
 
@@ -98,7 +98,7 @@ RagTag can also merge and fill in gaps in assemblies, although I didn't use thes
 Something I learnt the hard way is that RagTag seems to do some kind of caching of large files, which isn't overridden as I was expecting with the flag `-w`. That meant that while I was experimenting with different settings I was getting the same scaffolded assemblies back, which it took me some time and frustration to realise.
 For this reason I took to including a line in the script to completely remove the output directory (here excitingly named `scaffold_directory`) before running RagTag, just to be on the safe side.
 
-```
+```sh
 if [ -d scaffold_directory ]; then
     echo "Removing existing output directory to avoid RagTag caching things."
     rm -r scaffold_directory
@@ -107,7 +107,7 @@ fi
 
 The following command scaffolds the raw assembly file to `reference_genome.fasta` and outputs to `scaffold_directory`.
 
-```
+```sh
 ragtag.py scaffold \
     -q 60 \
     -f 100000 \
@@ -133,7 +133,7 @@ RagTag returns FASTA files with sequences headers that merge headers from the re
 As Marie Kondo would say, this does not spark joy.
 I used awk to remove the `_RagTag` suffix from scaffolded assembly file `ragtag.scaffold.fasta`.
 
-```
+```sh
 awk '/^>/ {sub("_RagTag", "", $1)} 1' ragtag.scaffold.fasta > tidied_assembly.fasta
 ```
 
@@ -147,7 +147,7 @@ Install using `devtools`; `install.packages` won't work because the package is n
 
 The following chunk imports the paf file and create a dotplot of contigs for line 1158 against the TAIR10 reference assembly, with contigs sorted by size.
 
-```
+```r
 library(pafr)
 # Import the PAF file
 path_to_paf <- "03_processing/05_genome_assembly/output/03_scaffolding/1158/tair10/ragtag.scaffold.asm.paf"
@@ -192,7 +192,7 @@ TAIR10_chr_all.fasta
 
 The following command compares the genomes to a single reference genome - notice the absence of the `.fasta` suffix - and saves plots to `outdir`.
 
-```
+```sh
 pannagram \
     -path_in fasta_dir \
     -path_out outdir \
