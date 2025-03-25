@@ -254,4 +254,4 @@ phenotype as one would expect.
      with `binwidth`.
 ```
 
-![](/_posts/2025-03-08-simulate-a-phenotype_files/figure-markdown_strict/unnamed-chunk-10-1.png)
+![](2025-03-08-simulate-a-phenotype_files/figure-markdown_strict/unnamed-chunk-10-1.png)
